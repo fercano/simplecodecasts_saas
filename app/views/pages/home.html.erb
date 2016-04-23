@@ -2,3 +2,20 @@
     <h1>Welcome to Develop.do</h1>
     <h3>Teaching you to code in less than a year!</h3>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic Membership</h2>
+            <h4>Sign up and get basic access to our developer community.</h4>
+            <br>
+            <%= link_to "Sign Up with Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Pro Membership</h2>
+            <h4>Sign up for the pro account for RD$500/m and get the latest insigts and contacts for new information!</h4>
+            <%= link_to "Sign Up with Pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+        </div>
+    </div>
+</div>
